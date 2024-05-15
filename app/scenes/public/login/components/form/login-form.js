@@ -7,6 +7,8 @@ export async function LoginFormComponent() {
 
   console.log(style);
   root.innerHTML = `
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700&display=swap" rel="stylesheet">
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@400&display=swap" rel="stylesheet">
   <div class="${style.body}">
     <div class="${style.container1}">
       <h1 class="tit1">HEALTH-HUB</h1>

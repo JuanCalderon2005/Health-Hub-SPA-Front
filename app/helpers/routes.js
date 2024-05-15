@@ -2,7 +2,7 @@ import { LoginPage } from '../scenes/public/login';
 import { HomeScene } from '../scenes/private/home';
 import { ReportScene } from '../scenes/private/reports';
 import { SettingsScene } from '../scenes/private/settings';
-import { hello } from '../scenes/private/hello/hello';
+import { hello } from '../scenes/private/hello';
 
 
 export const routes = {
