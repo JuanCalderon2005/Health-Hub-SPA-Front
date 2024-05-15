@@ -1,11 +1,25 @@
 .body{
+    /* font-family: 'Satoshi', sans-serif; */
     display: flex;
+}
+
+h1{
+    color: #b7e4c7;
+    font-size: 60px;
+    font-weight: 900;
+}
+
+h2{
+    text-align: center;
+    color: #000000;
+    font-size: 28px;
+    font-weight: 900;
 }
 .container1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     height: 100vh;
     width: 50vw;
 }
@@ -14,15 +28,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid black;
     height: 100vh;
     width: 50vw;
 }
 
 .form1 {
-    height: 60%;
-    width: 60%;
-    border: 1px solid black;
+    background-color: #b7e4c7;
+    height: 70%;
+    width: 70%;
     border-radius: 60px 0px 60px 0px;
 }
 
@@ -36,16 +49,18 @@
 }
 
 .input {
+    border: none;
     width: 70%;
     padding: 10px;
-    border: 1px solid black;
     border-radius: 10px;
+    background-color: white;
 }
 
 .forpass {
     text-decoration: none;
     color: black;
     margin-left: 50%;
+    font-size: 12px;
 } 
 
 .google {
@@ -54,8 +69,12 @@
     width: 70%;
     text-decoration: none;
     color: black;
-    border: 1px solid black;
     border-radius: 10px;
     padding: 10px;
     margin-top: 10px;
+    background-color: white;
+}
+
+a.google{
+    background-color: white;
 }

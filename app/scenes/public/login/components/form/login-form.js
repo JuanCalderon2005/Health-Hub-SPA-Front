@@ -9,12 +9,13 @@ export async function LoginFormComponent() {
   root.innerHTML = `
   <div class="${style.body}">
     <div class="${style.container1}">
-    <h1>hola</h1>
+      <h1 class="tit1">HEALTH-HUB</h1>
+      <h2 class="tit2">Empower your wellness journey</h2>
     </div>
     <div class="${style.container2}">
         <div class="${style.form1}">
             <form class="${style.form}" method="post">
-                <input class="${style.input}" type="text" name="username" placeholder="Username">
+                <input class="${style.input}" type="text"x name="username" placeholder="Username">
                 <input class="${style.input}" type="password" name="password" placeholder="********">
                 <input class="${style.input}" type="submit" name="login" value="Login">
                 <a href="#" class="${style.google}">Login with Google</a>
