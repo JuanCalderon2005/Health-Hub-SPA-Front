@@ -1,0 +1,61 @@
+.body{
+    display: flex;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+    width: 50vw;
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 100vh;
+    width: 50vw;
+}
+
+.form1 {
+    height: 60%;
+    width: 60%;
+    border: 1px solid black;
+    border-radius: 60px 0px 60px 0px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    gap: 35px;
+}
+
+.input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.forpass {
+    text-decoration: none;
+    color: black;
+    margin-left: 50%;
+} 
+
+.google {
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 10px;
+}
