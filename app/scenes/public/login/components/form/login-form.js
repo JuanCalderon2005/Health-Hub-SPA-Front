@@ -41,7 +41,7 @@ export async function LoginFormComponent() {
     const token = 'hola';
     if (token) {
       localStorage.setItem('token', token);
-      navigateTo('/dashboard/hello');
+      navigateTo('/dashboard/welcomePhysician');
     } else {
       alert('Invalid credentials');
     }
