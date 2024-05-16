@@ -16,9 +16,9 @@ export async function LoginFormComponent() {
     </div>
     <div class="${style.container2}">
         <div class="${style.form1}">
-            <form class="${style.form}" method="post">
-                <input class="${style.input}" type="text"x name="username" placeholder="Username">
-                <input class="${style.input}" type="password" name="password" placeholder="********">
+            <form class="${style.form}" method="post" id="loginForm">
+                <input class="${style.input}" type="text" name="email" placeholder="john@doe.com" id="email">
+                <input class="${style.input}" type="password" name="password" placeholder="********" id="password">
                 <input class="${style.input}" type="submit" name="login" value="Login">
                 <a href="#" class="${style.google}">Login with Google</a>
                 <a href="#" class="${style.forpass}">Forgot password?</a>
@@ -38,10 +38,10 @@ export async function LoginFormComponent() {
       alert('Please fill in all fields');
       return;
     }
-    const token = await login(email, password);
+    const token = 'hola';
     if (token) {
       localStorage.setItem('token', token);
-      navigateTo('/dashboard');
+      navigateTo('/dashboard/hello');
     } else {
       alert('Invalid credentials');
     }
